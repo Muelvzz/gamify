@@ -1,4 +1,5 @@
 from pydantic import BaseModel, EmailStr
+from datetime import date
 
 class UserCreate(BaseModel): # for register endpoint
     username: str
